@@ -1,0 +1,12 @@
+.search-wrapper{
+  margin:auto;
+}
+.pokedex-heading{
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+#pokemon-name-search{
+width:600px;
+padding:1rem;
+font-size:19px;
+}
