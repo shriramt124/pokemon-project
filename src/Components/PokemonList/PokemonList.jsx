@@ -44,7 +44,7 @@ function PokemonList() {
   
      <div className="pokemon-wrapper">
         {(isLoading)?"loading.." : 
-       pokemonList.map((p)=> <Pokemon image={p.image} name={p.name} key={p.id} />)}
+       pokemonList.map((p)=> <Pokemon image={p.image} name={p.name} key={p.id} id={p.id}/>)}
        </div>
        <div className="controls">
             <button disabled={prevUrl === null} onClick={()=>setPokedexUrl(prevUrl)}>prev</button>

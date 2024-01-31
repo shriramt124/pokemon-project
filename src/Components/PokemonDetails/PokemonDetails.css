@@ -1,0 +1,29 @@
+.pokemon-details-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap:30px;
+    padding:20px;
+}
+.height ,.pokemon-details-name,.weight{
+    font-size:25px;
+    font-weight:bolder;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+.pokemon-details-types{
+    display: flex;
+    gap:20px;
+}
+.pokemon-details-types div{
+    font-size:25px;
+  
+    text-transform: capitalize;
+    background-color: orangered;
+    padding:10px;
+    border-radius: 10px;
+
+
+}
